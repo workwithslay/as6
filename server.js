@@ -24,11 +24,13 @@ const app = express();
 const HTTP_PORT = process.env.PORT || 8080;
 
 cloudinary.config({
-    cloud_name: 'db5tryp2f',
-    api_key: '145169691935588',
-    api_secret: '3-aZKx8-gjvBNQyLaO6quzwQyKE',
+    cloud_name: 'dkauaonkb',
+    api_key: '929258293499528',
+    api_secret: 'Ai1zORIYUONMBo5byVRRsLCk29I',
     secure: true
 });
+
+
 app.use(clientSessions({
     cookieName: "session", 
     secret: "web322app_final", 
